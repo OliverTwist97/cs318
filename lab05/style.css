@@ -1,0 +1,17 @@
+p {
+    background-color: black;
+    color: white;
+    font-style: helvetica, sans-serif;
+  }
+  
+ul {
+    background-color: black;
+    color: white;
+    font-style: arial bold, sans-serif;
+  }
+
+h2, h3 {
+    background-color: black;
+    color: white;
+    font-style: arial bold, sans-serif;
+  }
