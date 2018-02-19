@@ -1,7 +1,7 @@
 p {
-    background-color: black;
-    color: white;
-    font-style: helvetica, sans-serif;
+    background-color: steelblue;
+    color: lightcoral;
+    font-style: arial, sans-serif;
   }
   
 ul {
@@ -10,9 +10,23 @@ ul {
     font-style: arial bold, sans-serif;
   }
 
-h2, h3 {
-    background-color: black;
-    color: white;
+h1, h2, h3 {
+    background-color: lightcoral;
+    color: darkkhaki;
     font-style: arial bold, sans-serif;
   }
-  
+
+figcaption {
+  background-color: lightcoral;
+    color: medium gray;
+    font-style: arial italic, sans-serif;
+  }
+
+body {
+  width: 800px
+}
+
+figure {
+  margin: auto;
+  width: 600px
+}
