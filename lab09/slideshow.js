@@ -24,3 +24,4 @@ var urls = [
     i = (i + 1) % urls.length;
     picture.src = urls[i]; 
   }
+  
