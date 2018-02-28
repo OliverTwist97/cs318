@@ -1,0 +1,34 @@
+body { 
+    background-color: lightcoral;
+
+}
+
+#panel {
+    position: fixed;
+    box-shadow: 0 0 30px purple;
+    background-color: lightcyan;
+    top: 50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+}
+
+#picture{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    position: fixed;
+    width: 10%;
+    top: 50%;
+    z-index: 100;
+    cursor: pointer;
+}
+#nav2{
+    right: 0;
+}
+#nav1{
+    
+}
