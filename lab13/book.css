@@ -1,0 +1,54 @@
+header {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+main {
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+nav {
+    background-color: lightgoldenrodyellow;
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+.nav {
+    display: none;
+}
+
+
+@media (min-width: 600px) {
+    nav {
+        width: 400px;
+    }
+
+    main {
+        display: inline-block;
+        width: calc(100%-400px);
+    }
+
+    li { 
+        display: block;
+    }
+
+    .nav {
+        display: inline;
+    }
+} 
