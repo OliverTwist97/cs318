@@ -32,6 +32,17 @@ nav {
     display: none;
 }
 
+aside {
+    padding: 20px;
+    font-size: 20pt;
+    background-color: lightcoral;
+    width: 100%;
+}
+
+.poem {
+    padding-left: 70px;
+}
+
 main {
     background-color: lightgoldenrodyellow;
     padding: 10px;
@@ -50,5 +61,9 @@ main {
     }
     li {
         display: block;
+    }
+    aside {
+        width: 800px;
+        float: right;
     }
 }
