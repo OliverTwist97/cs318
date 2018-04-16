@@ -1,0 +1,91 @@
+#pokemon1 { 
+    background-color: burlywood;
+    border-color: mediumslateblue;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 2em;
+    width: 200px;
+}
+
+#pokemon2 { 
+    background-color: rgb(209, 200, 78);
+    border-color: rgb(226, 18, 18);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 2em;
+    width: 200px;
+}
+
+#pokemon3 { 
+    background-color: rgb(50, 232, 238);
+    border-color: rgb(161, 113, 57);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 2em;
+    width: 200px;
+}
+
+#pokemon4 { 
+    background-color: rgb(135, 212, 222);
+    border-color: rgb(230, 208, 14);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 2em;
+    width: 200px;
+}
+
+#pokemon5 { 
+    background-color: rgb(135, 222, 168);
+    border-color: rgb(90, 60, 26);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 2em;
+    width: 200px;
+}
+
+#pokemon6 { 
+    background-color: rgb(255, 233, 110);
+    border-color: rgb(255, 177, 10);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 2em;
+    width: 200px;
+}
+
+.favorite {
+    border-style: dashed;
+    border-width: 30px;
+    border-color: gold;
+}
+
+.card {
+    vertical-align: text-top;
+    float: left;
+    padding: 10px;
+    }
+
+.card img {
+    width: 100%;
+    }
+
+
+.name{
+    font-family: helvetica;
+    color: black;
+    font-size: 12pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+p { 
+    font-family: helvetica;
+    color: black;
+    font-size: 10pt;
+    text-align: left;
+    font-weight: light;
+}
+
+
+
+
+

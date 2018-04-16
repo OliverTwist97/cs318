@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+  }
+  
+  .outerbox {
+    margin: 10px;
+    background-color: goldenrod;
+    display: inline-block;
+  }
+  
+  .innerbox {
+    display: inline-block;
+    background-image: linear-gradient(salmon, salmon), linear-gradient(#1E90FF, #1E90FF);
+    background-clip: content-box, padding-box;
+  }
+  
+  #box0 {
+      font-size: 20pt;
+      margin: gold;
+      margin: 20px;
+      border: black;
+      border-style: dashed;
+      border-width: 5px;
+      padding: #1E90FF;
+      padding: 7px;
+
+  }
+
+  #box1 { 
+    font-size: 20pt;
+    border: black;
+    border-style: dashed;
+    border-width: 5px;
+    padding: #1E90FF;
+    padding: 7px;
+
+  }
+
+  #box2 { 
+    font-size: 20pt;
+    width: 500px;     
+    margin: gold;
+    margin: 20px;
+    border-color: black;
+    border-style: solid;
+    border-top-width: 2.5px;
+    border-bottom-width: 2.5px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    padding: 0px;
+  
+  
+  }
+
+  #box3 {
+    width: 85px;
+    font-size: 20pt;
+    margin: gold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    padding: #1E90FF;
+    padding: 30px;
+
+  }

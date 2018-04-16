@@ -1,0 +1,56 @@
+table{
+    padding: 10px;
+    font-family: helvetica;
+    font-size: 15pt;
+    width: 30%;
+}
+
+th{
+    text-align: left;
+}
+
+
+tr:nth-child(even){
+    background-color: rgb(184, 184, 184);
+}
+
+header{
+    font-family: helvetica;
+    font-style: bold;
+    font-size: 25pt;
+    background-color: maroon;
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+
+li.menu{
+    list-style: none;
+    color: white;
+    font-family: helvetica;
+    font-size: 15pt;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding:10px;
+    border-right: white;
+    display: inline-block;
+}
+
+
+li.menu:hover{
+    background-color: grey;
+    cursor: pointer;
+    
+}
+
+nav>ul{
+    padding: 0px;
+
+}
+
+nav{
+    background-color: darkblue;
+}

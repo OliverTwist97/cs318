@@ -1,0 +1,50 @@
+.header{
+    width: 750px;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: helvetica;
+    text-align: center;
+    font-size: 30pt;
+    font-style: bold;
+    padding: 5px;
+}
+
+.nav{
+    width: 750px;
+    background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    color: darkgreen;
+    font-family: helvetica;
+    padding: 5px;
+    text-align: center;
+}
+
+.main{
+    background-color: lightpink;
+    font-family: helvetica;
+    font-size: 12pt;
+    line-height: 2.0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+
+image{
+    overflow: hidden;
+    align-content: center;
+    width: 750px;
+    height: auto;
+}
+
+.footer{
+    text-align: right;
+    font-style: italic;
+    font-size: 10pt;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
+}

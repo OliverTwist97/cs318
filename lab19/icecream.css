@@ -1,0 +1,77 @@
+form{
+    background-color: rgb(148, 200, 216);
+    width: 600px;
+    height: 450px;
+    padding: 30px;
+    line-height: 20px;
+    font-family: helvetica;
+    font-size: 15pt;
+    border-radius: 15pt; 
+}
+
+
+
+h1{
+    text-align: center;
+}
+.label{
+    width: 200px;
+    float: left;
+    clear: left;
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    margin-left:80px;
+}
+
+
+
+#name{
+    width:277px;
+    margin-left: 320px;
+    display: block;
+    margin-top:20px;
+}
+#flavor{
+    width:280px;
+    height:70px;
+    margin-left: 320px;
+    display: block;
+    margin-top:20px;
+    
+    
+}
+
+input#myRange.slider{
+    margin-left: 40px;
+    margin-top:25px;
+    width:275px;
+}
+
+#serving{
+    width: 280px;
+    height:55px;
+    margin-top:20px;
+    margin-left: 320px;
+    display: block;
+}
+#check{
+    margin-left: 320px;
+    display: block;
+    margin-top:20px;
+    width:20px;
+    height:20px;
+    
+}
+
+#button{
+    background-color:rgb(194, 237, 250);
+    border-style:none;
+    display:block;
+    margin-left:320px;
+    margin-top:10px;
+}
+
+
+
+

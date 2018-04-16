@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url("images/corkboard.jpg");
+}
+
+.photo {
+    width: 545px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    line-height: 2.0;
+    font-family: Marker; 
+    font-size: 20pt;
+    text-align: center;
+    display: inline-block;
+    box-shadow: -10px 10px 10px rgb(78, 45, 14);
+    margin-left: 20px;
+}
+
+#cat {
+    transform: rotate(5deg);
+}
+@font-face{
+    font-family: Marker;
+    src: url(VTKSANIMAL2.ttf);
+  }
+
+.pushpin {
+    width: auto;
+    height: 100px;
+    position: absolute;
+    margin-left: 200px;
+    
+}
+
+.images {
+    width: 500px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
