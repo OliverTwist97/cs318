@@ -1,0 +1,18 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: inline-block;
+        }
+
+a:visited {
+    border-style: solid;
+    border-color: black;
+    }
+
+#highlighted { 
+    background-color:lightblue;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    }

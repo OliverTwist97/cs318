@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;;
+    background-color: lightpink;
+}
+
+.name{
+    font-family: helvetica Impact, sans-serif;
+    font-size: 15pt;
+    text-decoration: underline;
+    color: white;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 40px;
+
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 10px 10px 10px violet;
+    position: relative;
+}
+
+.photo:hover {
+    box-shadow: 5px 5px 10px rgb(139, 17, 133);
+    margin-top: 20px;
+    margin-left: 20px;
+  
+}
+
+#bill{
+    background-image: url(http://masetv.com/wp-content/uploads/bill-cosby-mugshot-640x400.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 350px;
+    background-position: -170px -50px;
+}
+#charlie{
+    background-image: url(https://popgoestheweek.com/wp-content/uploads/2012/01/charlie_sheen_crazy.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 250px;
+    background-position: -60px -5px;
+}
+
+#brittany{
+    background-image: url(https://tvrecappersanonymous.files.wordpress.com/2010/10/britney-spears-crying.jpg);
+    background-position: -50px -20px;
+    background-repeat: no-repeat;
+    background-size: 250px auto;
+}
+
+
+
+#paris{
+    background-image: url(http://cdn1.smosh.com/sites/default/files/legacy.images/smosh-pit/082010/paris%202.jpg);
+    background-position: -160px -145px;
+    background-repeat: no-repeat;
+
+}

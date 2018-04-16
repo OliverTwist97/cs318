@@ -1,0 +1,13 @@
+h3 {
+    color: gold;
+    font-size: 24pt;
+    font-family: 'Francois One', sans-serif;
+    text-shadow: x-offset y-offset blur-radius color;
+    text-shadow: 4px 1px 5px #000000
+}
+
+#answer{
+    font-size: 12pt;
+    font-family: 'Heebo', sans-serif;
+    width: 75%;
+}

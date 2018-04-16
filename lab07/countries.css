@@ -1,0 +1,71 @@
+body {
+    background-color: beige;
+}
+
+
+
+* { 
+    float: top;
+   box-sizing: border-box; 
+   margin: 10px;
+   border-radius: 15pt;
+   
+   
+}
+
+#turkey {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-image: url(http://www.i2clipart.com/cliparts/f/8/4/0/clipart-flag-of-turkey-f840.png), url(http://cdn.playbuzz.com/cdn/10951f35-db79-490a-99b6-dbaba29cd8a7/c6d8dde8-fbb3-44aa-aaa2-20dafb64ee33.gif);
+    background-position: top right, center;
+    border-color: green;
+   border-style: dashed;
+   border-width: 4px;
+   background-size: 100px, 300px;
+   background-repeat: no-repeat; 
+   box-shadow: 10pt 10pt 20pt grey;
+} 
+
+#russia {
+    background-size: 300px, auto;
+    width: 300px;
+    height: 300px; 
+     display: inline-block;
+    background-image: url(http://www.101languages.net/images/flags/128/Russia.png), url(https://img2.cgtrader.com/items/630668/855bb07403/large/3d-political-map-of-russia-3d-model-max-obj-3ds.jpg);
+    border-color: green;
+   border-style: dashed;
+   border-width: 4px;
+   background-position: top right, center;
+   background-size: 100px, 300px;
+   background-repeat: no-repeat;
+   box-shadow: 10pt 10pt 20pt grey;
+}
+
+#lebanon {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-image: url(https://www.shareicon.net/data/128x128/2016/09/01/822692_world_512x512.png), url(https://www.saveur.com/sites/saveur.com/files/styles/500_1x_/public/import/2014/feature_lebanon-map_800x800.jpg?itok=iJclrgyb);
+    border-color: green;
+   border-style: dashed;
+   border-width: 4px;
+   background-position: top right, center;
+   background-size: 100px, 300px;
+   background-repeat: no-repeat;
+   box-shadow: 10pt 10pt 20pt grey;
+}
+
+#finland {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-image: url(https://www.worldwarships.com/sites/default/files/imagecache/Image-Scale-128-128/Finland.png), url(http://www.resortvacationstogo.com/images/maps/cc/154.gif);
+    border-color: green;
+   border-style: dashed;
+   border-width: 4px;
+   background-position: top right, center;
+   background-size: 100px, 300px;
+   background-repeat: no-repeat;
+   box-shadow: 10pt 10pt 20pt grey;
+}

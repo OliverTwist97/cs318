@@ -1,0 +1,46 @@
+body{
+    margin-left: 100px;
+}
+form{
+    background-color: rgb(201, 201, 201);
+    width: 32%;
+    height: 250px;
+    padding: 15px;
+    line-height: 30px;
+    font-family: helvetica;
+    font-size: 15pt;
+    text-align: right;
+    border-radius: 15pt; 
+}
+
+#comments{
+    width: 250px;
+    
+    
+}
+
+#subject{
+    margin-bottom: 15px;
+    
+}
+
+#email{
+    
+}
+
+#name{
+   
+    
+}
+
+#button{
+    background-color: rgb(8, 8, 211);
+    color: white;
+    border-style: none;
+    padding: 10px;
+    float: right;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 200px;
+    border-radius: 5pt;
+}
