@@ -1,0 +1,245 @@
+#nav{
+    height: 39px;
+    border-radius: 15px;
+    width: 90%;
+    border:none;
+    background-color: rgb(163, 238, 163);
+    margin-left:17%;
+    font-family: helvetica;
+    color: black;
+    border-collapse: collapse;
+}   
+
+#nav li{
+    list-style: none;
+    display: block;
+    float: left;
+    height: 40px;
+    position: relative;
+
+}
+
+#nav li a{
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0;
+    line-height: 40px;
+    border:none;
+    height: 50px;
+    width: 150px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav li a:hover{
+    text-shadow: 5px 5px 10px white;
+}
+
+
+#nav ul{
+    padding: 0px;
+    width:170px;
+    border:none;
+}
+#nav .site-name,#nav .site-name:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 160px;
+}
+#nav .home a{
+    width: 100px;
+    overflow:hidden;
+}
+
+.capabilities{
+    width:200px;
+}
+
+#nav li a{
+    display: block;
+}
+
+#nav ul li {
+    border-style:none;
+    width:170px;
+    height:39px;
+}
+
+
+#nav ul li a {
+    border:none;
+}
+
+#nav ul li a:hover{
+    text-shadow: 10px 10px 10px white;
+}
+
+/* Sub menus */
+#nav ul{
+    display: none;
+        visibility:hidden;
+    position: absolute;
+    top: 30px;
+    height: 270px;
+    line-height: 70px;
+    width: 170px;
+    border-style: none;
+    border-radius:15pt;
+    background-color: rgb(163, 238, 163);
+    z-index:30;
+}
+/* Third-level menus */
+#nav ul ul{
+    top: 0px;
+    left:140px;
+    display: none;
+    width: 200px;
+    height: 250px;
+        visibility:hidden;
+    border: none;
+    background-color: rgb(173, 255, 173);
+    box-shadow: -10px 10px 10px rgb(80, 153, 80); 
+    z-index:30;
+}
+/* Fourth-level menus */
+#nav ul ul ul{
+    top: 0px;
+    left:155px;
+    width: 150px;
+    height: 115px;
+    display: none;
+        visibility:hidden;
+    border: none;
+    background-color: rgb(169, 255, 169);
+    box-shadow: -10px 10px 10px rgb(80, 153, 80);
+    z-index:30; 
+}
+
+#nav ul li{
+    display: block;
+        visibility:visible;
+}
+#nav li:hover > ul{
+    display: block;
+        visibility:visible;
+}
+
+.sps49{
+    margin-top:40px;
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(226, 255, 62) , darkgreen);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:960px;
+    height:100%;
+    font-family:helvetica;
+}
+
+#headimg{
+    align-content: center;
+    margin-left: 17%;
+    width: 94%;
+    height: auto;
+    border-radius:15pt;
+
+}
+
+#info{
+    width:91%;
+    background-color:white;
+    position: relative;
+    left:17%;
+    margin-bottom:20px;
+    text-align: left;
+    padding:15px;
+    border-radius:15pt;
+    line-height:30pt;
+    z-index:0;
+}
+
+hr{
+    border-color:rgb(175, 0, 0);
+    background-color:rgb(175, 0, 0);
+    border-style:solid;
+    width:100%;
+    height:2px;
+    position: relative;
+}
+
+#aerialpic{
+    position:relative;
+    margin-top:2.5%;
+    width:50%;
+    display:block;
+    border-radius:15pt;
+   
+}
+
+.subtitle{
+    font-size:10pt;
+    font-style:italic;
+    position:relative;
+    top:10px;
+    left:3px;
+}
+
+.contactlabel{
+    padding:20px;
+    text-align: right;
+    float: left;
+    width:100px;
+    background-color:white;
+    
+}
+
+.closinglist{
+    margin-left:30px;
+    list-style:none;
+    margin-bottom: 20px;
+}
+
+.personcol1{
+    position:relative;
+    left:40px;
+    line-height:20pt;
+    padding-bottom:30px;
+}
+
+.personcol2{
+    position:relative;
+    left:90px;
+    line-height:20pt;
+    padding-bottom:30px;
+}
+
+.minititle{
+    padding-bottom:150px;
+}
+
+#directory{
+    width:60%;
+    padding:15px;
+    margin-left:70px;
+
+}
+
+#arealinks{
+    text-decoration:none;
+}
+
+#sendto{
+    position:relative;
+    left:18%;
+}
+
+#benefits{
+    position:relative;
+    left:16%;
+}
+
+#openings{
+    position:relative;
+    left:16%;
+    bottom:30%;
+}
