@@ -1,0 +1,11 @@
+title {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+body {
+    font-family: helvetica;
+}
+
+.menu {
+    cursor: pointer; 
+}
