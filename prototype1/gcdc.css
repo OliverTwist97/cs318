@@ -1,11 +1,36 @@
+#backgroundimage {
+    position: relative;
+    height: 350px;
+    width: auto;
+}
+
 title {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 body {
     font-family: helvetica;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: lightcoral;
 }
 
 .menu {
     cursor: pointer; 
+}
+
+#mainmenu {
+    position: relative;
+    float: right;
+    background-color: lightblue;
+}
+
+p {
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-right: 210px;
+    background-color: lightblue;
 }
